@@ -1,18 +1,18 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import Contact from './contact/Contact';
 import Fourth from './fourth/Fourth';
 import Navbar from './navbar/Navbar';
 import Second from './second/second';
 import Third from './third/Third';
-import './app.css'
 // import Recommandation from './recommandation/Recommandation';
 // import Certificate from './certificate/Certificate';
-
+import './app.css'
 
 function App() {
   
   return (
- <div >
+ <div className='profilemain'>
  <section id='navbar'> <Navbar/></section>
  <section id='second'><Second/></section>
  <section id='third'><Third/></section>
