@@ -1,0 +1,25 @@
+#body1{
+    overflow: hidden;
+    background-color: black;
+    color: antiquewhite;
+    width: 100%;
+}
+
+#contact{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#p{
+    text-align: center;
+    width: 70%;
+    display: flex;
+   
+    margin-left: 80px;
+}
+
+#icon{
+    display: flex;
+   justify-content: center;
+   
+}

@@ -1,0 +1,97 @@
+.study-sec{
+    overflow: hidden;
+   
+
+}
+
+
+h6{
+    color: grey;
+    display: flex;
+    justify-content: center;
+    
+}
+.projectportfolio{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.firstsection{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+.secondsection{
+    margin: 20px 20px;
+}
+.Thirdsection{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.fourthsection{
+    margin: 20px 20px;
+}
+.recipebook{
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+  
+}
+.animation1{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+#description{
+    border-radius: 10px;
+    background-color:rgb(228, 178, 43);
+    border: none;
+    color: antiquewhite;
+    
+}
+
+.sch1{
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+  
+}
+#description1{
+    border-radius: 10px;
+    background-color:rgb(228, 178, 43);
+    border: none;
+    color: antiquewhite;
+}
+#description2{
+    border-radius: 10px;
+    background-color:rgb(228, 178, 43);
+    border: none;
+    color: antiquewhite;
+}
+#description4{
+    border-radius: 10px;
+    background-color:rgb(228, 178, 43);
+    border: none;
+    color: antiquewhite;
+}
+.biography{
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.animation3{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.animation4{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.adminImage{
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+}
+

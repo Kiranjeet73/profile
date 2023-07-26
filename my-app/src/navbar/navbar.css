@@ -1,0 +1,50 @@
+.body{
+  overflow: hidden;
+  color: antiquewhite;
+}
+
+.profile{
+    background-color: rgba(12, 7, 7, 0.966);
+    padding: 3rem;
+    display: flex;
+   
+
+   }
+
+
+.rightside{
+   
+  padding: 2rem;
+  color: antiquewhite;
+  
+}
+.leftside{
+   
+ margin-top: 50px;
+
+  
+}
+
+.img{
+  
+  border-radius: 50%;
+  margin-left: 100px;
+  align-items: center;
+  object-fit: cover;
+  
+ 
+}
+
+button{
+  border-radius: 50px;
+}
+.submit{
+  margin-bottom: 20px;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+}
+
+
+

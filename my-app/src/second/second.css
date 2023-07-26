@@ -1,0 +1,28 @@
+
+.work{
+ display: flex;
+   justify-content: center;
+   padding-bottom: 20px;
+    
+}
+
+.header{
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* .A{
+   
+   
+   
+ display: flex;
+ text-align: start;
+}
+p{
+    margin-top: 10px;
+}
+.normal{
+    background-color: rgb(206, 201, 228);
+    border: none;
+} */
+

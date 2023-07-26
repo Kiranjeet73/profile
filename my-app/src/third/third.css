@@ -1,0 +1,9 @@
+
+   .body{
+    background-color: black;
+    color: antiquewhite;
+   }
+   #education{
+    display: flex;
+    justify-content: center ;
+   }
