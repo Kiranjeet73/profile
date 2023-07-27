@@ -90,12 +90,12 @@ h6{
     border-radius: 20px;
 }
 .biography{
-    height: 300px;
+   height: 300px;
     width: 600px;
     border-radius: 20px;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 768px) {
     .adminImage{
         height: 50vh;
         width:50vh;
@@ -116,6 +116,32 @@ h6{
 .recipebook{
     height: 50vh;
     width: 50vh;
+    border-radius: 20px;
+  
+}
+  }
+
+  @media (max-width: 420px) {
+    .adminImage{
+        height: 40vh;
+        width:40vh;
+        border-radius: 20px;
+    }
+    .biography{
+        height: 40vh;
+        width:40vh;
+        border-radius: 20px;
+    }
+    
+.sch1{
+    height: 40vh;
+    width:40vh;
+    border-radius: 20px;
+  
+}
+.recipebook{
+    height: 40vh;
+    width: 40vh;
     border-radius: 20px;
   
 }
