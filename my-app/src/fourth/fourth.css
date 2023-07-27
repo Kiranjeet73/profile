@@ -95,7 +95,7 @@ h6{
     border-radius: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 350px) {
     .adminImage{
         height: 50vh;
         width:50vh;
