@@ -19,7 +19,7 @@ const Contact = () => {
         <p id='p'>Feel free to contact me directly using below contact details or you can fill the contact form as well.
         </p>
         <span id='icon'><MailIcon/>:Kiranjeet2030@gmail.com</span>
-        <span id='icon'><ContactMailIcon/>:Brampton, Canada</span>
+        <span id='icon'><ContactMailIcon/>:Penticton, British Columbia, Canada</span>
         
         
         </Col>

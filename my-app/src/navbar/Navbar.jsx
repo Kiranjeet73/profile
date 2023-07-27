@@ -6,7 +6,8 @@ import { Col, Image, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Marquee from 'react-double-marquee';
 import { Link } from 'react-scroll';
-import ProfileImage from "../assets/images/photo.jpeg"
+import ProfileImage from "../assets/images/photo.jpeg";
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 
 
@@ -47,7 +48,7 @@ function BarMenu() {
       <Row>
         <Col className='leftside' ><div className='img'><Image  className='myimage' src={ProfileImage} alt='Profileimage' roundedCircle /></div></Col>
         <Col className='rightside'><p><h1 className='name'>Kiranjeet Kaur</h1>A highly motivated and enthusiastic web developer with expertise in Node.js, Angular, MongoDB, React, and AWS Amplify, aiming to secure an entry-level position in web development. Dedicated to designing user-friendly and cutting-edge web solutions, emphasizing the delivery of top-notch products that precisely cater to client requirements.</p>
-        <Button size="lg" variant="success" className='submit'>Hire Me</Button>
+        <Button size="md" variant="success" className='submit'><Nav.Link><Link activeclass="active" smooth spy to="contact">Hire Me<NavigateNextIcon/></Link></Nav.Link></Button>
         
         <div className='marquee' >
       <Marquee >
