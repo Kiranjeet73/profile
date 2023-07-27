@@ -44,7 +44,7 @@ function BarMenu() {
 
     <div className='profile'>
     <Container >
-      <Row>
+      <Row >
         <Col className='leftside' ><div className='img'><Image  className='myimage' src={ProfileImage} alt='Profileimage' roundedCircle /></div></Col>
         <Col className='rightside'><p><h1 className='name'>Kiranjeet Kaur</h1>A highly motivated and enthusiastic web developer with expertise in Node.js, Angular, MongoDB, React, and AWS Amplify, aiming to secure an entry-level position in web development. Dedicated to designing user-friendly and cutting-edge web solutions, emphasizing the delivery of top-notch products that precisely cater to client requirements.</p>
         <Button size="lg" variant="success" className='submit'>Hire Me</Button>

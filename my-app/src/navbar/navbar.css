@@ -10,12 +10,13 @@
 
    }
 
+   
 
 .rightside{
    
   padding: 2rem;
   color: antiquewhite;
-  
+  width: 50%;
 }
 .leftside{
    
@@ -81,7 +82,7 @@ button{
     width: 20vh;
   }
   .marquee{
-    width: '30vh';
+    width: '50vh';
     white-space: nowrap;
  }
   .profile{
