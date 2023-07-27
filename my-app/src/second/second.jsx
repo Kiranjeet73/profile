@@ -12,17 +12,17 @@ const Second = () => {
     <div>
     <h1 className='header'>Relevant Coursework</h1>
     <div className='work' >
-      <div>
+      <div className="course-list-container">
       
-      <ul><li>Angular - The Complete Guide (2023 Edition)<a href='https://www.udemy.com//'>https://www.udemy.com/</a></li></ul>
-      <ul>Certificate:<a href='https://www.udemy.com/certificate/UC-ffd18319-081c-423e-a663-76942eb3200a/'>https://www.udemy.com/certificate/UC-ffd18319-081c-423e-a663-76942eb3200a/</a></ul>
-      <ul><li>Introduction to MongoDB <a href='https://learn.mongodb.com/'>https://learn.mongodb.com/</a></li></ul>
+      <ul><li>Angular - The Complete Guide (2023 Edition)<a href='https://www.udemy.com//'>Udemy</a></li></ul>
+      <ul>Certificate:<a href='https://www.udemy.com/certificate/UC-ffd18319-081c-423e-a663-76942eb3200a/'>View Certificate</a></ul>
+      <ul><li>Introduction to MongoDB <a href='https://learn.mongodb.com/'>Mongo</a></li></ul>
       <ul><li>Programming Fundamentals
-          <a href='https://www.udemy.com/certificate/UC-15c95340-8179-46e0-afcc-f6ba9e5c314c/'>https://www.udemy.com/certificate/UC-15c95340-8179-46e0-afcc-f6ba9e5c314c/</a></li></ul>
-      <ul><li>HTML/CSS/Javascript/React https://www.freecodecamp.org/<a href='https://www.freecodecamp.org/'>https://www.freecodecamp.org/</a></li></ul>
-      <ul><li>Object-Oriented Programming https://www.freecodecamp.org/<a href='https://www.freecodecamp.org/'>https://www.freecodecamp.org/</a></li></ul>
+          <a href='https://www.udemy.com/certificate/UC-15c95340-8179-46e0-afcc-f6ba9e5c314c/'>View Certificate</a></li></ul>
+      <ul><li>HTML/CSS/Javascript/React<a href='https://www.freecodecamp.org/'>Freecodecamp</a></li></ul>
+      <ul><li>Object-Oriented Programming<a href='https://www.freecodecamp.org/'>Freecodecamp</a></li></ul>
       <ul><li>Database Management Systems</li></ul>
-      <ul><li>User Interface Design <a href='https://www.freecodecamp.org/'>https://www.freecodecamp.org/</a> & Practicing different layouts</li></ul>
+      <ul><li>User Interface Design <a href='https://www.freecodecamp.org/'>Freecodecamp</a> & Practicing different layouts</li></ul>
       
       </div>
       {/* <div className='timeline'>

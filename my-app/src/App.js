@@ -7,12 +7,12 @@ import Second from './second/second';
 import Third from './third/Third';
 // import Recommandation from './recommandation/Recommandation';
 // import Certificate from './certificate/Certificate';
-import './app.css'
+
 
 function App() {
   
   return (
- <div className='profilemain'>
+ <div>
  <section id='navbar'> <Navbar/></section>
  <section id='second'><Second/></section>
  <section id='third'><Third/></section>

@@ -13,6 +13,7 @@ import ProfileImage from "../assets/images/photo.jpeg"
 function BarMenu() {
   return (
     <div className='body'>
+     
     <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark" >
       <Container>
        
@@ -44,19 +45,11 @@ function BarMenu() {
     <div className='profile'>
     <Container >
       <Row>
-        <Col className='leftside' ><div className='img'><Image src={ProfileImage} alt='Profileimage' roundedCircle height={300} width={300} /></div></Col>
+        <Col className='leftside' ><div className='img'><Image  className='myimage' src={ProfileImage} alt='Profileimage' roundedCircle /></div></Col>
         <Col className='rightside'><p><h1 className='name'>Kiranjeet Kaur</h1>A highly motivated and enthusiastic web developer with expertise in Node.js, Angular, MongoDB, React, and AWS Amplify, aiming to secure an entry-level position in web development. Dedicated to designing user-friendly and cutting-edge web solutions, emphasizing the delivery of top-notch products that precisely cater to client requirements.</p>
         <Button size="lg" variant="success" className='submit'>Hire Me</Button>
         
-        <div
-      style={{
-        width: '500px',
-        whiteSpace: 'nowrap',
-        
-        }
-    
-    }
-    >
+        <div className='marquee' >
       <Marquee >
         <button>Html</button>
         <button>Css</button>
@@ -76,14 +69,6 @@ function BarMenu() {
       
     </Container>
     </div>
-
-<section>
-
-</section>
-
-
-
-
 </div>
   
   );

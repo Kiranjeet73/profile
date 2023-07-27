@@ -75,11 +75,6 @@ h6{
     border: none;
     color: antiquewhite;
 }
-.biography{
-    height: 300px;
-    width: 600px;
-    border-radius: 20px;
-}
 
 .animation3{
     margin-left: 20px;
@@ -94,4 +89,35 @@ h6{
     width: 600px;
     border-radius: 20px;
 }
+.biography{
+    height: 300px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .adminImage{
+        height: 50vh;
+        width:50vh;
+        border-radius: 20px;
+    }
+    .biography{
+        height: 50vh;
+        width:50vh;
+        border-radius: 20px;
+    }
+    
+.sch1{
+    height: 50vh;
+    width:50vh;
+    border-radius: 20px;
+  
+}
+.recipebook{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 20px;
+  
+}
+  }
 

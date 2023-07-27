@@ -7,7 +7,6 @@
     background-color: rgba(12, 7, 7, 0.966);
     padding: 3rem;
     display: flex;
-   
 
    }
 
@@ -21,8 +20,19 @@
 .leftside{
    
  margin-top: 50px;
+ 
 
   
+}
+.marquee{
+   width: '60vh';
+   white-space: nowrap;
+}
+
+.myimage{
+
+  height: 300px;
+  width: 300px;
 }
 
 .img{
@@ -48,3 +58,35 @@ button{
 
 
 
+@media (max-width: 768px) {
+  .myimage{
+    height: 30VH;
+    width: 30VH;
+  }
+  .profile{
+    background-color: rgba(12, 7, 7, 0.966);
+    padding: 3rem 10rem rem 10rem;
+    display: flex;
+
+   }
+   .marquee{
+    width: '50vh';
+    white-space: nowrap;
+ }
+}
+
+@media (max-width: 420px) {
+  .myimage{
+    height: 20vh;
+    width: 20vh;
+  }
+  .marquee{
+    width: '30vh';
+    white-space: nowrap;
+ }
+  .profile{
+    background-color: rgba(12, 7, 7, 0.966);
+    padding: 3rem 10rem rem 10rem;
+    display: flex;
+
+   }}
