@@ -90,4 +90,12 @@ button{
     padding: 3rem 10rem rem 10rem;
     display: flex;
 
-   }}
+   }
+   .img{
+  
+    border-radius: 50%;
+    margin-left: 8vh;
+    object-fit: cover;
+    }
+  
+  }
